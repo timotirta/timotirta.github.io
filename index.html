@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Happy Anniversary Bulat!</title>
+    <title>Happy Birthday Bulat!</title>
 
     <style>
       /*basic styles for black background and crosshair cursor*/
@@ -93,7 +93,7 @@
             transparent 19px,
             transparent 22px
           ),
-          linear-gradient(90deg, #00fffa, #f0f0f0);
+          linear-gradient(90deg, #ffaaaa, #f0f0f0);
       }
       .flowers {
         position: relative;
@@ -195,7 +195,7 @@
         transform: translate(-50%, -100%);
         width: 8vmin;
         height: 8vmin;
-        background-color: #6bf0ff;
+        background-color: #ff6bf0;
         filter: blur(10vmin);
       }
       .flower__leaf {
@@ -205,8 +205,8 @@
         width: 8vmin;
         height: 11vmin;
         border-radius: 51% 49% 47% 53%/44% 45% 55% 69%;
-        background-color: #a7ffee;
-        background-image: linear-gradient(to top, #54b8aa, #a7ffee);
+        background-color: #ffa7ee;
+        background-image: linear-gradient(to top, #ffb8aa, #a7ffee);
         transform-origin: bottom center;
         opacity: 0.9;
         box-shadow: inset 0 0 2vmin rgba(255, 255, 255, 0.5);
@@ -226,7 +226,7 @@
         transform-origin: bottom left;
         border-radius: 4vmin 10vmin 4vmin 4vmin;
         transform: translate(0%, 18%) rotateX(70deg) rotate(-43deg);
-        background-image: linear-gradient(to top, #39c6d6, #a7ffee);
+        background-image: linear-gradient(to top, #ffc6d6, #ff9eee);
         z-index: 1;
         opacity: 0.8;
       }
@@ -364,7 +364,7 @@
             transparent,
             rgba(255, 255, 255, 0.2)
           ),
-          linear-gradient(to top, transparent 10%, #14757a, #39c6d6);
+          linear-gradient(to top, transparent 10%, #ff757a, #ffc6d6);
         box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.5);
         animation: grow-flower-tree 4s backwards;
       }
@@ -380,8 +380,8 @@
         border-bottom-left-radius: var(--h);
         background-image: linear-gradient(
           to top,
-          rgba(20, 117, 122, 0.4),
-          #39c6d6
+          rgba(255, 117, 122, 0.4),
+          #ffc6d6
         );
       }
       .flower__line__leaf--1 {
@@ -631,7 +631,7 @@
       .flower__g-long {
         --w: 2vmin;
         --h: 6vmin;
-        --c: #159faa;
+        --c: #ff9faa;
         position: absolute;
         bottom: 10vmin;
         left: -3vmin;
@@ -1269,7 +1269,7 @@
         >Canvas is not supported in your browser - sorry.</canvas
       >
       <h1 id="message" style="position: absolute; z-index: 2; text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
-      1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff; color: #7cdede;">Happy Anniversary yang ke 2 Tahun Bulat!</h1>
+      1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff; color: #ffd0d0;">Happy Anniversary yang ke 2 Tahun Bulat!</h1>
       <div id="background" class="not-loaded" style="position: absolute; width: 100% !important; z-index: -9999;">
         <div class="night"></div>
         <div class="flowers">
@@ -2016,12 +2016,12 @@
     //keep code handy for when we want to insert the new message --
     function newMessage() {
       var message = [
-        "Semoga kita selalu menjalankan Anniv sampai tua yaa",
+        "Semoga makin dewasa, makin tercapai cita-citanya",
         "Maaf tahun ini belum bisa bersama bulatku",
         "Semoga tahun tahun kedepan kita sudah makin didekatkan yaa ❤️",
-        "Jangan suka ngambekan bulatkuu",
+        "Ayangnya dicini celalu cayang bulat",
+        "Meskipun bulatku cangat nyebelin",
         "Harus kuatt yaa demi menabung :p",
-        "Jangan Lupa menyenangkan diri cendiri",
         "Love you bulatkuuu ❤️❤️❤️ <br><br><br><br><br> - Ayang Timo",
       ];
       myElement.innerHTML = message[counter];
